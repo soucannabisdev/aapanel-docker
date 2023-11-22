@@ -4,4 +4,4 @@ WORKDIR /app
 COPY install.sh /app/install.sh
 RUN chmod +x ./install.sh
 RUN printf 'y\nn' | ./install.sh aapanel
-EXPOSE 0.0.0.0:$PORT
+EXPOSE 7800
